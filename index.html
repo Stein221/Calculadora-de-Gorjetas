@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <script src="./js/script.js" defer></script>
+    
+
+    <title>Gorjetas</title>
+</head>
+<body>
+    <div class="container" id="container">
+    <div>
+        <h1 class="titulo">Calculadora de Gorjetas</h1>
+    </div>
+    <div>
+        <form  class="tipsForm" id="tipsform" action="">
+            <label for="bill">
+                <p>Quanto ficou a conta?</p>
+            </label>
+            <p>
+                R$ <input type="number" name="bill" placeholder="100" id="bill" class="formInput" required>
+            </p>
+            <br>
+            <label class="servico" for="serviceQual">
+                <p>Como foi seu serviço?</p>
+            </label>
+            <p>
+                <select name="serviceQual" id="serviceQual" class="formSelect" required>
+                    <option disable selected value="0">--Escolha uma opção--</option>
+                    <option value="0.3">30% - Incriível</option>
+                    <option value="0.2">20% - Ótimo</option>
+                    <option value="0.15">15% - Bom</option>
+                    <option value="0.10">10% - Aceitável</option>
+                    <option value="0"> 0% - Ruim</option>
+                </select>
+            </p>
+            <br>
+            <label class="pessoas" for="people">
+                <p>Quantas pessoas vão dividir a conta?</p>
+            </label>
+            <p>
+                <input type="number" placeholder="1" name="people" id="people" class="formInput" required> pessoa (s)
+            </p>
+            <br>
+            <br>
+
+            <button class="formSubmit" type="submit">Calcular</button>
+            
+        </form>
+    </div>  
+    <br>
+    <br>
+
+    <div id="totalTip">
+        Gorjeta total
+        R$ <span id="tip">0,00</span>
+        <p id="each">cada</p>
+    </div>
+    </div>  
+  
+</body>
+</html>

@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: azure;
+    
+  
+}
+
+.container{
+    background-color: #52ACFF;
+    background-image: linear-gradient(180deg, #52ACFF 25%, #FFE32C 100%);
+    width: 550px;
+    border-radius: 80px;
+    height: 550px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 2px solid #000;
+    font-size: 17px;
+    padding: 15px;
+    text-align: center;
+    
+    
+}
+
+.titulo{
+    padding: 20px;
+    
+}
+
+.servico{
+    padding: 15px;
+    
+    
+}
+.pessoas{
+    padding: 80px;
+    margin-top: 20px;
+    
+}
+
+.formInput{
+    width: 41.5px;
+    text-align: center;
+}
+
+.formSelect{
+    width: 120px;
+}
+
+.formSubmit{
+    padding: 5px;
+    width: 72px;
+    font-size: 14px;
+    display: inline-block;
+    
+}
+.botao{
+    padding: 5px;
+    margin-top: 30px;
+    text-align: center;
+    
+}
+button:hover{
+    background-color: #52ACFF;
+}
